@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class Ingresar al dashboard de banca virtual</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class Ingresar al dashboard de banca virtual</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; Ingresar al dashboard de banca virtual</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">1</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1m19.13s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">0%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard output</a>
+</li>
+<li>
+<a href="#tab3">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="Logeo exitoso con un usuario de banco de bogota"></a>
+<h3 class="failures">Logeo exitoso con un usuario de banco de bogota</h3>
+<span class="code">
+<pre>java.lang.AssertionError: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#bsh\-title&quot;}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-FJ634HR', ip: '192.168.1.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_332'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0ec2d481d8e1a0e2a307bef150349ca8, findElement {using=id, value=bsh-title}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\Johoxtum\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53760}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53760/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0ec2d481d8e1a0e2a307bef150349ca8
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:38)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:32)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:353)
+	at com.bancodebogota.stepdefinitions.LoginBVStep.elUsuarioDeberaVer(LoginBVStep.java:41)
+	at ✽.El usuario debera ver &quot;Tus productos&quot;(file:///E:/Inteliij/BV_Prueba/src/test/resources/features/login.feature:9)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="failures">Logeo exitoso con un usuario de banco de bogota</td>
+<td class="failures">1m19.13s</td>
+<td class="failures">failed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>?[92m|-- Given Ingresa a la pagina web?[0m
+?[92m|---- Sanchez opens the browser at https://virtual.labdigbdbstgpb.com/?[0m
+?[92m|-- When Ingresa sus credenciales de acceso:
+| username | 2006699 |
+| password | 1234 |?[0m
+?[92m|---- Sanchez tarea login bv?[0m
+?[92m|------ Sanchez enters '2006699' into Ingresa usuario?[0m
+?[92m|------ Sanchez enters '1234' into Ingresar contraseña?[0m
+?[92m|------ Sanchez clicks on Boton para ingresar?[0m
+?[92m|------ Sanchez enters '8' into Primer numero del token?[0m
+?[92m|------ Sanchez enters '0' into Segundo numero del token?[0m
+?[92m|------ Sanchez enters '1' into Tercer numero del token?[0m
+?[92m|------ Sanchez enters '0' into Cuarto numero del token?[0m
+?[92m|------ Sanchez enters '8' into Quinto numero del token?[0m
+?[92m|------ Sanchez enters '4' into Sexto numero del token?[0m
+?[92m|------ Sanchez clicks on Boton verificacion identidad?[0m
+?[92m|------ Sanchez waits the Boton verificacion identidad1 until be Visible?[0m
+?[92m|------ Sanchez clicks on Boton verificacion identidad1?[0m
+?[92m|-- Then El usuario debera ver &quot;Tus productos&quot;?[0m
+?[92m|---- Then dashboard bv should be 'Tus productos'?[0m
+</pre>
+</span>
+</div>
+<div id="tab3" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///E:/Inteliij/BV_Prueba/src/test/resources/features/login.feature
+[Test worker] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+Logeo exitoso con un usuario de banco de bogota(ingresar-al-dashboard-de-banca-virtual;logeo-exitoso-con-un-usuario-de-banco-de-bogota)
+--------------------------------------------------------------------------------
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.DriverProvider - Using WebDriverManager configuration for chrome
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Johoxtum\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Starting Chrome driver instance with capabilities:
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [--no-sandbox, --incognito, --disable-dev-shm-usage, --lang=es, --disable-popup-blocking, --disable-download-notifica..., --start-maximized, --test-type, --ignore-certificate-errors, --allow-running-insecure-co..., --disable-translate, --always-authorize-plugins, --disable-extensions], extensions: []}}
+Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 53930
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+sep 27, 2022 2:50:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected upstream dialect: W3C
+sep 27, 2022 2:50:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+ADVERTENCIA: Unable to find an exact match for CDP version 105, so returning the closest version found: 104
+sep 27, 2022 2:50:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFORMACIÓN: Found CDP implementation for version 105 of 104
+[Test worker] INFO  - ?[91mSTEP ERROR: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#bsh\-title&quot;}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-FJ634HR', ip: '192.168.1.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_332'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0ec2d481d8e1a0e2a307bef150349ca8, findElement {using=id, value=bsh-title}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\Johoxtum\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53760}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53760/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0ec2d481d8e1a0e2a307bef150349ca8?[0m
+[Test worker] INFO  - ?[91mSTEP FAILURE: java.lang.AssertionError: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#bsh\-title&quot;}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-FJ634HR', ip: '192.168.1.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_332'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0ec2d481d8e1a0e2a307bef150349ca8, findElement {using=id, value=bsh-title}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\Johoxtum\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53760}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53760/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0ec2d481d8e1a0e2a307bef150349ca8?[0m
+[Test worker] ERROR  - ?[91m
+  _____   ___   ___   _____     ___   ___   ___    ___    ___ 
+ |_   _| | __| / __| |_   _|   | __| | _ \ | _ \  / _ \  | _ \
+   | |   | _|  \__ \   | |     | _|  |   / |   / | (_) | |   /
+   |_|   |___| |___/   |_|     |___| |_|_\ |_|_\  \___/  |_|_\
+
+Logeo exitoso con un usuario de banco de bogota
+---------------------------------------------------------------?[0m
+[Test worker] ERROR  - ?[91m    Test failed at step: Then dashboard bv should be 'Tus productos'?[0m
+[Test worker] ERROR  - ?[91m    no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#bsh\-title&quot;}?[0m
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.1</a> at 27/09/2022 02:51:24 PM</p>
+</div>
+</div>
+</body>
+</html>
